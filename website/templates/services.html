@@ -1,0 +1,300 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MIREA - Beauty & Spa</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="MIREA - Beauty & Spa" name="keywords">
+    <meta content="MIREA - Beauty & Spa" name="description">
+
+    <!-- Favicon -->
+    <link href=" {% static 'img/logo/logo.png' %} " rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href=" {% static 'lib/animate/animate.min.css' %} " rel="stylesheet">
+    <link href=" {% static 'lib/owlcarousel/assets/owl.carousel.min.css' %} " rel="stylesheet">
+    <link href=" {% static 'lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css' %} " rel="stylesheet" />
+
+        <!-- Lightbox CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href=" {% static 'css/style.css' %} " rel="stylesheet">
+</head>
+
+<body>
+     <!-- Navbar Start -->
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 py-lg-0 px-lg-5">
+
+                <a href="index" class="navbar-brand ml-lg-3">
+                    <img src="{% static 'img/logo/logo.png' %}" alt="" style="width:90px; height:auto;">
+                </a>
+
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index" class="nav-item nav-link active">Home</a>
+                        <a href="about" class="nav-item nav-link">O Nama</a>
+                        <a href="services" class="nav-item nav-link">Usluge</a>
+                        <a href="blog" class="nav-item nav-link">Blog</a>
+                        <a href="index#kontakt" class="nav-item nav-link">Kontakt</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="jumbotron jumbotron-fluid bg-jumbotron" style="margin-bottom: 90px;">
+        <div class="container text-center py-5">
+            <h3 class="text-white display-3 mb-4">USLUGE</h3>
+            <div class="d-inline-flex align-items-center text-white">
+                <p class="m-0"><a class="text-white" href=" index ">Home</a></p>
+                <i class="far fa-circle px-3"></i>
+                <p class="m-0">Usluge</p>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid px-0 py-5 my-5">
+        <div class="row mx-0 justify-content-center text-center">
+            <div class="col-lg-6">
+                <h6 class="d-inline-block bg-light text-primary text-uppercase py-1 px-2">NAŠI TRETMANI</h6>
+                <h1>Beauty & Spa</h1>
+            </div>
+        </div>
+        <div class="owl-carousel service-carousel">
+            <div class="service-item position-relative">
+                <img class="img-fluid" src="{% static 'img/55.png' %}" alt="">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Masaže</h4>
+                    <p class="text-white px-3 mb-3">Opustite tijelo i um uz naše relaksirajuće masaže prilagođene vašim potrebama.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <a href="{% static 'img/pdf/1.png' %}" data-lightbox="service-gallery" class="btn btn-primary">POGLEDAJ VIŠE</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-item position-relative">
+                <img class="img-fluid" src=" {% static 'img/22.png' %} " alt="">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Njega lica i tijela</h4>
+                    <p class="text-white px-3 mb-3">Profesionalni tretmani koji hrane kožu, obnavljaju sjaj i osvježavaju vaš izgled.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <a href="{% static 'img/pdf/2.png' %}" data-lightbox="service-gallery" class="btn btn-primary">POGLEDAJ VIŠE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative">
+                <img class="img-fluid" src=" {% static 'img/33.png' %} " alt="">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Sauna i čajni rituali</h4>
+                    <p class="text-white px-3 mb-3">Uživajte u toplini saune i ljekovitom čaju koji čisti organizam i smiruje duh.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <a href="{% static 'img/pdf/1.png' %}" data-lightbox="service-gallery" class="btn btn-primary">POGLEDAJ VIŠE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative">
+                <img class="img-fluid" src=" {% static 'img/44.png' %} " alt="">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Savjeti za prehranu i disanje</h4>
+                    <p class="text-white px-3 mb-3">Naučite kako pravilna ishrana i tehnike disanja mogu poboljšati vaše zdravlje.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <a href="{% static 'img/pdf/2.png' %}" data-lightbox="service-gallery" class="btn btn-primary">POGLEDAJ VIŠE</a>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="row justify-content-center bg-appointment mx-0">
+            <div class="col-lg-6 py-5" style="display:flex; justify-content:center;">
+                <img src="{% static 'img/logo/white-logo-mr.png' %}" alt="" style="height:300px">
+                     
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Open Hours Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src=" {% static 'img/opening.jpg' %} " style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-5 pb-lg-5">
+                    <div class="hours-text bg-light p-4 p-lg-5 my-lg-5">
+                        <h6 class="d-inline-block text-uppercase py-1 px-2" style=" color: #c7aa8a !important;     background-color: #ffffff !important;">RADNO VRIJEME</h6>
+                        <h1 class="mb-4" style="color: white;">Beauty & Spa</h1>
+                        <ul class="list-inline">
+                            <li class="h6 py-1" style="color: white;">Ponedjeljak – Subota : 10:00h - 20:00h</li>
+                            <li class="h6 py-1" style="color: white;">Nedjelja : Zatvoreno</li>
+                        </ul>
+
+                        <a href=" index#contact" class="btn btn-primary mt-2" style="    border-color: #ffffff;">Kontakt</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Open Hours End -->
+
+
+    <!-- Pricing Start -->
+    <div class="container-fluid bg-pricing" style="margin: 90px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src=" {% static 'img/pricing.png' %} " style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7 pt-5 pb-lg-5">
+                    <div class="pricing-text bg-light p-4 p-lg-5 my-lg-5">
+                        <div class="owl-carousel pricing-carousel">
+                            <div class="bg-white">
+                                <div class="d-flex align-items-center justify-content-between border-bottom border-primary p-4">
+                                    <h1 class="display-4 mb-0">
+                                        220<small class="align-bottom text-muted font-weight-medium" style="font-size: 16px; line-height: 40px;">KM</small>
+                                    </h1>
+                                    <h5 class="text-primary text-uppercase m-0">Antistress Paket</h5>
+                                </div>
+                                <div class="p-4">
+                                    <p><i class="fa fa-check text-success mr-2"></i>Refleksologija stopala (2x)</p>
+                                    <p><i class="fa fa-check text-success mr-2"></i>Vođena relaksacija i disanje (1x)</p>
+                                    <p><i class="fa fa-check text-success mr-2"></i>Aromaterapijska relaks masaža (2x)</p>
+                                    <p><i class="fa fa-check text-success mr-2"></i>Masaža vlasišta i lica s uljem lavande (1x)</p>
+                                    <a href="{% static 'pdf/Antistres.pdf' %}" target="_blank" class="btn btn-primary my-2">POGLEDAJ VIŠE</a>
+                                </div>
+                            </div>
+                            <div class="bg-white">
+                                <div class="d-flex align-items-center justify-content-between border-bottom border-primary p-4">
+                                    <h1 class="display-4 mb-0">
+                                        300<small class="align-bottom text-muted font-weight-medium" style="font-size: 16px; line-height: 40px;">KM</small>
+                                    </h1>
+                                    <h5 class="text-primary text-uppercase m-0">ImmuniBoost Paket</h5>
+                                </div>
+                                <div class="p-4">
+                                    <p><i class="fa fa-check text-success mr-2"></i>Konsultacije i procjena stanja</p>
+                                    <p><i class="fa fa-check text-success mr-2"></i>8 kombinovanih tretmana kroz 4 sedmice</p>
+                                    <p><i class="fa fa-check text-success mr-2"></i>Limfna drenaža (3x)</p>
+                                    <p><i class="fa fa-check text-success mr-2"></i>Refleksologija stopala (2x)</p>
+                                    <p><i class="fa fa-check text-success mr-2"></i>Aromaterapijska relaks masaža (3x)</p>
+
+                                    <a href="{% static 'pdf/Immuneboost.pdf' %}" target="_blank" class="btn btn-primary my-2">POGLEDAJ VIŠE</a>
+                                </div>
+                            </div>
+                            <div class="bg-white">
+                                <div class="d-flex align-items-center justify-content-between border-bottom border-primary p-4">
+                                    <h1 class="display-4 mb-0">
+                                        65<small class="align-bottom text-muted font-weight-medium" style="font-size: 16px; line-height: 40px;">KM</small>
+                                    </h1>
+                                    <h5 class="text-primary text-uppercase m-0">Limfna Drenaža Paket</h5>
+                                </div>
+                                <div class="p-4">
+                                    <p><i class="fa fa-check text-success mr-2"></i>Konsultacije i analiza stanja</p>
+                                    <p><i class="fa fa-check text-success mr-2"></i>6/12 tretmana ručne limfne drenaže (1–2 sedmično)</p>
+                                    <p><i class="fa fa-check text-success mr-2"></i>Savjeti za kućnu rutinu i ishranu</p>
+                                    <p><i class="fa fa-check text-success mr-2"></i>Praćenje napretka</p>
+                                    <a href="{% static 'pdf/Limfnadrenaza.pdf' %}" target="_blank" class="btn btn-primary my-2">POGLEDAJ VIŠE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pricing End -->
+
+
+
+     <!-- Footer Start -->
+    <div class="footer container-fluid position-relative bg-dark py-5" style="margin-top: 90px;">
+        <div class="container pt-12" style="text-align: center !important;">
+            <div class="row">
+                <div class="col-lg-12 pr-lg-5 mb-5">
+                    <a href=" {% static 'index.html' %} " class="navbar-brand">
+                        <img src="{% static 'img/logo/white-logo-mr.png' %}" alt="" style="height:300px">
+                                
+                    </a>
+                    <p><i class="fa fa-map-marker-alt mr-2"></i>Sarajevo, BiH</p>
+                    <p><i class="fa fa-phone-alt mr-2"></i>+38762132886</p>
+                    <p><i class="fa fa-envelope mr-2"></i>info@mirearituals.com</p>
+                    <div class="d-flex justify-content-center mt-4">
+                        <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square" href="https://wa.me/38762132886"><i class="fab fa-whatsapp"></i></a>
+                    
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-light border-top py-4" style="border-color: rgba(256, 256, 256, .15) !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                    <p class="m-0 text-white">&copy; <a href="#">www.mirearituals.com</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <p class="m-0 text-white">Designed by <a href="https://www/instagram.com/faazlla">FAZLA</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src=" {% static 'lib/easing/easing.min.js' %} "></script>
+    <script src=" {% static 'lib/waypoints/waypoints.min.js' %} "></script>
+    <script src=" {% static 'lib/counterup/counterup.min.js' %} "></script>
+    <script src=" {% static 'lib/owlcarousel/owl.carousel.min.js' %} "></script>
+    <script src=" {% static 'lib/tempusdominus/js/moment.min.js' %} "></script>
+    <script src=" {% static 'lib/tempusdominus/js/moment-timezone.min.js' %} "></script>
+    <script src=" {% static 'lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js' %} "></script>
+
+    <!-- Contact Javascript File -->
+    <script src=" {% static 'mail/jqBootstrapValidation.min.js' %} "></script>
+    <script src=" {% static 'mail/contact.js' %} "></script>
+
+    <!-- Template Javascript -->
+    <script src=" {% static 'js/main.js' %} "></script>
+
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</body>
+
+</html>

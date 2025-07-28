@@ -1,0 +1,171 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MIREA - Beauty & Spa</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="MIREA - Beauty & Spa" name="keywords">
+    <meta content="MIREA - Beauty & Spa" name="description">
+
+    <!-- Favicon -->
+    <link href=" {% static 'img/logo/logo.png' %} " rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href=" {% static 'lib/animate/animate.min.css' %} " rel="stylesheet">
+    <link href=" {% static 'lib/owlcarousel/assets/owl.carousel.min.css' %} " rel="stylesheet">
+    <link href=" {% static 'lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css' %} " rel="stylesheet" />
+
+        <!-- Lightbox CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href=" {% static 'css/style.css' %} " rel="stylesheet">
+</head>
+
+<body>
+     <!-- Navbar Start -->
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 py-lg-0 px-lg-5">
+
+                <a href="index" class="navbar-brand ml-lg-3">
+                    <img src="{% static 'img/logo/logo.png' %}" alt="" style="width:90px; height:auto;">
+                </a>
+
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index" class="nav-item nav-link active">Home</a>
+                        <a href="about" class="nav-item nav-link">O Nama</a>
+                        <a href="services" class="nav-item nav-link">Usluge</a>
+                        <a href="blog" class="nav-item nav-link">Blog</a>
+                        <a href="index#kontakt" class="nav-item nav-link">Kontakt</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="jumbotron jumbotron-fluid bg-jumbotron" style="margin-bottom: 90px;">
+        <div class="container text-center py-5">
+            <h3 class="text-white display-3 mb-4">BLOG</h3>
+            <div class="d-inline-flex align-items-center text-white">
+                <p class="m-0"><a class="text-white" href=" index ">Home</a></p>
+                <i class="far fa-circle px-3"></i>
+                <p class="m-0">Blog</p>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100" src=" {% static 'img/about.jpg' %} " alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">Svakodnevni savjeti</h6>
+                    <h1 class="mb-4">Savjeti za svakodnevni balans – disanje, san, čaj</h1>
+                    <p class="pl-4 border-left border-primary">U MIREA RITUALS vjerujemo da je njegovanje tijela i duha jedan čin ljubavi prema sebi. Naš tim kombinuje znanje iz klasičnih i holističkih tehnika da bi pružio tretmane koji vraćaju balans, zdravlje i mir.</p>                    
+                    
+                    <p class="pl-4 border-left border-primary">U MIREA RITUALS vjerujemo da je njegovanje tijela i duha jedan čin ljubavi prema sebi. Naš tim kombinuje znanje iz klasičnih i holističkih tehnika da bi pružio tretmane koji vraćaju balans, zdravlje i mir.</p>
+                    
+                    
+                </div>
+
+                <div class="col-lg-12 py-5">
+                    
+                    <p class="pl-4 border-left border-primary">U MIREA RITUALS vjerujemo da je njegovanje tijela i duha jedan čin ljubavi prema sebi. Naš tim kombinuje znanje iz klasičnih i holističkih tehnika da bi pružio tretmane koji vraćaju balans, zdravlje i mir.</p>
+                    
+                    <p class="pl-4 border-left border-primary">U MIREA RITUALS vjerujemo da je njegovanje tijela i duha jedan čin ljubavi prema sebi. Naš tim kombinuje znanje iz klasičnih i holističkih tehnika da bi pružio tretmane koji vraćaju balans, zdravlje i mir.</p>
+                    
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+     <!-- Footer Start -->
+    <div class="footer container-fluid position-relative bg-dark py-5" style="margin-top: 90px;">
+        <div class="container pt-12" style="text-align: center !important;">
+            <div class="row">
+                <div class="col-lg-12 pr-lg-5 mb-5">
+                    <a href=" {% static 'index.html' %} " class="navbar-brand">
+                        <img src="{% static 'img/logo/white-logo-mr.png' %}" alt="" style="height:300px">
+                                
+                    </a>
+                    <p><i class="fa fa-map-marker-alt mr-2"></i>Sarajevo, BiH</p>
+                    <p><i class="fa fa-phone-alt mr-2"></i>+38762132886</p>
+                    <p><i class="fa fa-envelope mr-2"></i>info@mirearituals.com</p>
+                    <div class="d-flex justify-content-center mt-4">
+                        <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square" href="https://wa.me/38762132886"><i class="fab fa-whatsapp"></i></a>
+                    
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-light border-top py-4" style="border-color: rgba(256, 256, 256, .15) !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                    <p class="m-0 text-white">&copy; <a href="#">www.mirearituals.com</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <p class="m-0 text-white">Designed by <a href="https://www/instagram.com/faazlla">FAZLA</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src=" {% static 'lib/easing/easing.min.js' %} "></script>
+    <script src=" {% static 'lib/waypoints/waypoints.min.js' %} "></script>
+    <script src=" {% static 'lib/counterup/counterup.min.js' %} "></script>
+    <script src=" {% static 'lib/owlcarousel/owl.carousel.min.js' %} "></script>
+    <script src=" {% static 'lib/tempusdominus/js/moment.min.js' %} "></script>
+    <script src=" {% static 'lib/tempusdominus/js/moment-timezone.min.js' %} "></script>
+    <script src=" {% static 'lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js' %} "></script>
+
+    <!-- Contact Javascript File -->
+    <script src=" {% static 'mail/jqBootstrapValidation.min.js' %} "></script>
+    <script src=" {% static 'mail/contact.js' %} "></script>
+
+    <!-- Template Javascript -->
+    <script src=" {% static 'js/main.js' %} "></script>
+
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</body>
+
+</html>
